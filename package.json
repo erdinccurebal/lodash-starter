@@ -1,0 +1,25 @@
+{
+  "name": "lodash-starter",
+  "version": "1.0.0",
+  "description": "Created By Erdinç Cürebal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdinccurebal/lodash-starter.git"
+  },
+  "keywords": [
+    "lodash-starter"
+  ],
+  "author": "Erdinç Cürebal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdinccurebal/lodash-starter/issues"
+  },
+  "homepage": "https://github.com/erdinccurebal/lodash-starter#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
