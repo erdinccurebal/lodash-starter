@@ -12,4 +12,4 @@ const edit2 = _.differenceWith(array, [10], _.isEqual)
 console.log(edit1 + "\n" + edit2);
 
 
-// DifferenceWith - Array içinde belirtilen herhangi bir değer veya arrayin dışındakileri yazdırır.
+// differenceWith - Array içinde belirtilen herhangi bir değer veya arrayin dışındakileri yazdırır.

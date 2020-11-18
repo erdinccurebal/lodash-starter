@@ -6,4 +6,4 @@ const edit = _.flattenDepth(array, 3);
 
 console.log(edit);
 
-// FlattenDepth - Dizinin dıştan içe doğru iç dizilerini verilen indis değerine kadar siler.
+// flattenDepth - Dizinin dıştan içe doğru iç dizilerini verilen indis değerine kadar siler.

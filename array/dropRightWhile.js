@@ -11,4 +11,4 @@ const edit = _.dropRightWhile(users, ['user', 'pebbles']);
 
 console.log(edit);
 
-// DropRightWhile - Dizideki koşula göre sağdan başlamak üzere koşulda ilk görülen veriyi siler.
+// dropRightWhile - Dizideki koşula göre sağdan başlamak üzere koşulda ilk görülen veriyi siler.

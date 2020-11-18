@@ -11,4 +11,4 @@ const edit = _.findLastIndex(users, { 'user': 'nihal', 'active': true });
 
 console.log(edit);
 
-// FindLastIndex - Dizinin içindeki koşula göre sondan? başlayarak indexi yakalar.
+// findLastIndex - Dizinin içindeki koşula göre sondan? başlayarak indexi yakalar.

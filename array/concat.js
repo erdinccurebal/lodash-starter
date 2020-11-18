@@ -12,4 +12,4 @@ const edit = _.concat(array01, 'hello', array02, array03);
 console.log(edit);
 
 
-// Concat - Array'leri birleştirmeye yarar.
+// concat - Array'leri birleştirmeye yarar.

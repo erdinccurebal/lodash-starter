@@ -8,4 +8,4 @@ const edit = _.difference(array,cikart);
 
 console.log(edit);
 
-// Difference - İlk parametre olan array'in içerisinden , ikinci paremetre olan array'deki objeler çıkarılır.
+// difference - İlk parametre olan array'in içerisinden , ikinci paremetre olan array'deki objeler çıkarılır.

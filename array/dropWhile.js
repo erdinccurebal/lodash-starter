@@ -11,4 +11,4 @@ const edit = _.dropWhile(users, ['user', 'barney']);
 
 console.log(edit);
 
-// DropWhile - Dizideki koşula göre soldan başlamak üzere koşulda ilk görülen veriyi siler.
+// dropWhile - Dizideki koşula göre soldan başlamak üzere koşulda ilk görülen veriyi siler.

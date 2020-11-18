@@ -6,4 +6,4 @@ const edit = _.compact(array);
 
 console.log(edit);
 
-// Compact - false, null, 0, "", undefined, NaN içeriklerini temizler.
+// compact - false, null, 0, "", undefined, NaN içeriklerini temizler.

@@ -4,4 +4,4 @@ const edit = _.dropRight([1,2,3],1)
 
 console.log(edit);
 
-// DropRight - Dizideki verili sondan olmak üzere girilen değer kadar siler. Varsayılan 1.
+// dropRight - Dizideki verili sondan olmak üzere girilen değer kadar siler. Varsayılan 1.

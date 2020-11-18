@@ -8,4 +8,4 @@ const edit = _.differenceBy(array,cikart, Math.floor);
 
 console.log(edit);
 
-// DifferenceBy - İlk parametre olan array'in içerisinden , ikinci paremetre olan array'deki objeler çıkarılır, üçüncü parametrede fonksiyon uygulanır.
+// differenceBy - İlk parametre olan array'in içerisinden , ikinci paremetre olan array'deki objeler çıkarılır, üçüncü parametrede fonksiyon uygulanır.

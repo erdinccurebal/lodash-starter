@@ -14,4 +14,4 @@ const edit02 = _.fill(array02, '*', 0, 3);
 
 console.log(edit02);
 
-// Fill - Array içindeki tüm değerleri, verilen değer ile değiştirir.
+// fill - Array içindeki tüm değerleri, verilen değer ile değiştirir.

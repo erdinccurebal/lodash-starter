@@ -11,4 +11,4 @@ const edit = _.findIndex(users, { 'user': 'merve', 'active': true });
 
 console.log(edit);
 
-// FindIndex - Dizinin içindeki koşula göre baştan başlayarak indexi yakalar.
+// findIndex - Dizinin içindeki koşula göre baştan başlayarak indexi yakalar.

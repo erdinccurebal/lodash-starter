@@ -6,4 +6,4 @@ const edit = _.chunk(array, 4);
 
 console.log(edit);
 
-// Chunk - Array verilerin içine array açmaya ve ayırmaya yarar.
+// chunk - Array verilerin içine array açmaya ve ayırmaya yarar.
