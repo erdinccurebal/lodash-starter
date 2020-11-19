@@ -1,7 +1,5 @@
 const _ = require('lodash');
 
-_.defer(function (stamp) {
-    console.log(_.now() - stamp);
-}, _.now());
+console.log(new Date(_.now()))
 
-// now - ?
+// now - Şu anın tarihini yazar.

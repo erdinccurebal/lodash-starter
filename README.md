@@ -93,7 +93,73 @@ Nihal Kıran arkadaşımıza da çok teşekkür ederim, bu projede bana yardımc
 - sortBy - Dizideki verileri bir koşula sıralar.
 
 ## Date
-- now - ?
+- now - Şu anın tarihini yazar.
 
 ## Function
 - ary - Dizideki verilerin türünü değiştirmeye yarar.
+- bind - Bir fonksiyona bağlı kalarak objenin içersindeki veriyi çekerek başına ve sonuna işlemler uygulayabilirsiniz.
+- bindKey - Objenin içersindeki bir fonksiyona bağlı kalarak objenin içersindeki veriyi çekerek başına ve sonuna işlemler uygulayabilirsiniz.
+- curry - Fonksiyonun parentez girilebilecek hale getirir. Eksik veya fazla veri girişinde hata verir.
+- curryRight - Fonksiyonun parentez girilebilecek hale getirir. Eksik veya fazla veri girişinde hata verir. Fonksiyonlar tersden yazılır.
+- debounce - Fonksiyona yapılan art arda istekleri sınırlar.
+- defer - Fonksiyonun ard arda çağırılmasını engeller.
+- delay - Fonksiyonun çalışmasını belirli bir süre geçiktirir.
+- memoize - Objenin içinden verilen koşula göre, verileri çeker.
+- negate - Fonksiyonun tersini yapar.
+- once - Aynı fonksiyonun defalarca çalışmasını engeller.
+- overArgs - Fonksiyonları birleştirir. iki eklenen değerin, iki farklı fonksiyon uygulanır.
+- partial - Girilen değeri fonksiyon ile işleme sokarak yazdırır.
+- partialRight - Girilen değeri fonksiyon ile işleme sokarak yazdırır. Partial'da girilen koşullar tersden yazılır.
+- rearg - Index yerlerini değiştirir.
+- rest - Bu fonksiyon herhangi bir fonksiyona uygulanarak girilen değer ve string'ler işlem uygulanır.
+- spread - Girilen dizin değerleri sıraya göre yerine yerleştirip işleme sokar.
+- throttle - Fonksiyon uygulandıktan sonra geçikmeye girer. Fark olan burada fonksiyon çalışmadan değil, çalıştıkdan sonra devreye girmesidir.
+- unary - Dizideki içindeki değerlerin iç değerlerini değiştirir.
+
+## Lang
+- castArray - Veriyi array çevirir.
+- clone - Veriyi kopyalar ve ilk halini korur.
+- cloneDeep - Clone verisi ile orjinal birbirine eşit olsada bu fonksiyonla ayırt edebilirsiniz.
+- conformsTo - Obje içersindeki verinin koşula göre uygunluğuna bakar, true veya false döner.
+- eq - Aynı elementi yakalar, değilse false, doğru ise true döner.
+- gt - Birinci verinin ikinci veriden küçük olup olmadığını kontrol eder, küçükse false, büyükse true.
+- gte - Birinci verinin ikinci veriden küçük veya eşit olup olmadığını kontrol eder, küçükse false, büyükse veya eşitse true.
+- isArray - Fonksiyon herhangi bir veri alıyorsa true 'dur.
+- isArrayBuffer - Buffer dizi olup olmadığını kontrol eder.
+- isArrayLike - Fonksiyon, integer veya koşul ifadesi için false, string veya array ifadesi için true döner. Çünkü array'e benzeyenleri bulur.
+- isArrayObject - Sadece array türünü kabul eder.
+- isBoolean - Verinin boolean olup olmadığını kontrol eder.
+- isBuffer - Verinin buffer olup olmadığını kontrol eder.
+- isDate - Verinin tarih olup olmadığını kontrol eder.
+- isEmpty - True , NaN , Undefined, False ve Null true döner, diğerleri false döner.
+- isEqual - Verilerin aynı olup olmadığını kontrol eder.
+- isError - Verinin hata olup olmadığını kontrol eder.
+- isFinite - Ölçülebilen elaman mıdır diye kontrol eder.
+- isFunction - Fonksiyon olup olmadığını kontrol eder.
+- isInteger - Verinin integer veri tipinde olup olmadığını kontrol eder.
+- isLength - Verinin uzunluk birimi olup olmadığını kontrol eder.
+- isMap - Verinin map formatında olup olmadığını kontrol eder.
+- isMatch - Verinin verilen obje içinde olup olmadığını kontrol eder.
+- isNaN - NaN olup olmadığını kontrol eder.
+- isNil - Bir veri girdisi varsa veya bir fonksiyon geriye veri dönüyorsa false'dur.
+- isNull - Null değer olup olmadığını kontrol eder.
+- isNumber - Numara olup olmadığını kontrol eder.
+- isObject - Nesne olup olmadığnı kontrol eder.
+- isObjectLike - Nesneye benzeyip benzemediğini kontrol eder.
+- isRegExp - İfadenin RegExp türünde yazılıp yazılmadığını kontrol eder.
+- isSafeInteger - Tamı tamına bir integer olup olmadığını kontrol eder.
+- isSet - Objenin set edilip edilmediğini kontrol eder.
+- isString - Verinin string olup olmadığını kontrol eder.
+- isSymbol - Symbol olup olmadığını kontrol eder.
+- isTypedArray - Class türünde bir array olup olmadığını kontrol eder.
+- isUndefined - Verinin olup olmadığını kontrol eder.
+- lt - Birinci verinin ikinci veriden büyük olup olmadığını kontrol eder, büyükse false
+- lte - Birinci verinin ikinci veriden büyük veya eşit olup olmadığını kontrol eder, büyükse false, küçük veya eşitse true
+- toArray - Veriyi array'e çevirir.
+- toFinite - Veriyi ölçülebilir elemana çevirir.
+- toInteger - Veriyi integer veri tipine çevirir.
+- toLength - Okunabilir bir uzunluğa çevirir.
+- toNumber - Veriyi bir numaraya çevirir.
+- toNumber - Veriyi integer'a çevirir.
+- toSafeInteger - Double veriler dahil bire bir integer'a çevirir.
+- toString - Veriyi string veri tipine çevirir.
