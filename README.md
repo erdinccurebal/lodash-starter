@@ -1,6 +1,7 @@
 # lodash-starter
 Merhaba ben Erdinç Cürebal, Lodash dökümanını Türkçeliştirmek ve anlaşılır hale getirmek istedim.
 Bu projemi size sunuyorum, umarım işinize yarar.
+Nihal Kıran arkadaşımıza da çok teşekkür ederim, bu projede bana yardımcı olduğu için.
 
 ## Array
 - chunk - Array verilerin içine array açmaya ve ayırmaya yarar.
