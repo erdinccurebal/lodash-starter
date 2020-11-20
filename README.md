@@ -163,3 +163,46 @@ Nihal Kıran arkadaşımıza da çok teşekkür ederim, bu projede bana yardımc
 - toNumber - Veriyi integer'a çevirir.
 - toSafeInteger - Double veriler dahil bire bir integer'a çevirir.
 - toString - Veriyi string veri tipine çevirir.
+
+## Math
+- add - Veriye ekleme yapar.
+- ceil - Değeri yukarı yuvarlar. Tam sayı ise girilen sayı kadar sola ilerler ve basamağı kendi basamak değerinde yukarı yuvarlar. Virgüllü sayı ise girilen değer kadar sola ilerler ve o basamaktan itibaren yukarı yuvarlar.
+- divide - Bölme işlemi yapar.
+- floor - Değeri aşağı yuvarlar. Tam sayı ise girilen sayı kadar sola ilerler ve basamağı kendi basamak değerinde aşağı yuvarlar. Virgüllü sayı ise girilen değer kadar sola ilerler ve o basamaktan itibaren aşağı yuvarlar.
+- max - Arraydeki değerlerin en büyüğünü bulur. Değer yoksa undefined
+- maxBy - Dizinin içindeki objelerin en büyüğünü fonksiyon kullanarak bulur.
+- mean - Arraydeki değerlerin ortalamasını hesaplar.
+- meanBy - Dizi içerisindeki objelerin ortalamasını fonksiyon kullanarak bulur.
+- min - Arraydeki değerlerin en küçüğünü bulur. Değer yoksa undefined
+- minBy - Dizinin içindeki objelerin en küçüğünü fonksiyon kullanarak bulur.
+- multiply - Değerleri çarpar.
+- round - Değeri en yakın tam sayıya yuvarlar. Tam sayı ise girilen sayı kadar sola ilerler ve basamağı kendi basamak değerinde en yakın sayıya yuvarlar. Virgüllü sayı ise girilen değer kadar sola ilerler ve o basamaktan itibaren en yakın sayıya yuvarlar.
+- subtract - Sayıların farkını alır.
+- sum - Array içindeki değerleri toplar.
+- sumBy - Dizinin içindeki objelerin toplamını fonksiyon kullanarak bulur.
+- clamp - Verilen değerler arasındaki değeri bulur.
+- random - Verilen değerler arasında rastgele değer döndürür.
+
+## Object
+- assign - Objeleri birleştirir veya belirli bir objeye veri ekler.
+- assignIn - Objeye veri ekler.
+- at - Obje içerisindeki verileri index numarasına göre çeker ve bir array içerisinde birleştirir.
+- defaults - Obje içerisinde belirtilen değerlerden aynı properties'e sahip olanlardan varsayılan olarak ilkini alır.
+- defaultsDeep - Obje içerisinde belirtilen değerlerden aynı properties'e sahip olanların içeriğinde ilkinde olmayanlar varsa diğer propertiesleridekileri de ilkine alır.
+- findKey - Verilen koşula göre fonksiyona bağlı kalarak objenin içerisindeki koşula en yakın bir tane veriyi veya baştaki veriyi bulur.
+- findLastKey - Verilen koşula göre fonksiyona bağlı kalarak objenin içerisindeki koşula en uzak bir tane veriyi veya sondaki veriyi bulur.
+- forIn - Fonksiyonun prototype'larını isimlerini tek tek yazdırır.
+- forInRight - Fonksiyonun prototype'larını isimlerini sondan tek tek yazdırır.
+- forOwn - Fonksiyonun prototype'larının isimlerini tek tek yazdırır. Dışarıdan alınan prototype'ları dönmez. Sadece fonksiyon içerisindeki prototype'ları döner.
+- functions - Fonksiyonları birleştirir.
+- functionsIn - Fonksiyonları birleştirir. Dışardan prototype alır.
+- get - Objedeki bir değeri konum belirtilerek alır.
+- has - Objenin içerisindeki bahsedilen verinin propertiesinin varlığını kontrol eder.
+- hasIn - Propertiesin içerisindeki bahsedilen verinin varlığını kontrol eder.
+- invert - Obje içerisindeki verileri sağdan itibaren properties değer, değerleri properties yapar ve soldaki aynı veriyi siler.
+- invertBy - Obje içerisindeki verileri sağdan itibaren properties değer, değerleri properties yapar ve soldaki aynı veriyi siler. Aynı verileri array içerisinde birleştirir.
+- invoke - Obje içerisinde fonksiyon uygulayarak verilere ulaşmayı sağlar.
+- keys - Girilen string değerin her bir harfini sayar ve dizin oluşturur.
+- mapKeys - Objenin içersindeki properties isimlerini tek tek düzenler.7
+- mapValues - Objedeki verileri daha kısıtlanmış hale getirir.
+- merge - İki objeyi birleştirir.
