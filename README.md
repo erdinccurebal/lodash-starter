@@ -237,3 +237,32 @@ Nihal Kıran arkadaşımıza da çok teşekkür ederim, bu projede bana yardımc
 - prototypeReverse - Verileri testden yazdırır.
 - prototypeValue - Lodash türündeki veriyi çıkartır.
 
+## String
+- camelCase - Yazıyı düzeltir ve her cümlenin başını büyük yapar.
+- capitalize - Cümledeki ilk kelimenin baş harfini büyük yapar.
+- capdebur - Karakterleri standart karakterlere döndürür.
+- endsWith - Yazının sondan itibaren başa doğru ne yazdığını kontrol eder, geri dönüş true veya false döner.
+- escape - Özel karakterlerin kodlarını yazar.
+- escapeRegExp - Veriyi regExp ile parçalar.
+- kebabCase - Yazıyı sağdan soldan yemizler ve KebabCase türüne cevirir.
+- lowerCase - Yazıları düzeltir, ve hepsini küçük yapar.
+- lowerFirst - Yazının başını küçük harf yapar.
+- pad - Verinin sağına solanı karakter ekler. 1 Parametre ana metin, 2 parametre sağına soğuna eklenecek karakter sayısı, 3 Parametre eklenecek karakter.
+- padEnd - Verinin sağına karakter ekler. 1 Parametre ana metin, 2 parametre sağına soğuna eklenecek karakter sayısı, 3 Parametre eklenecek karakter.
+- padStart - Verinin soldan karakter ekler. 1 Parametre ana metin, 2 parametre sağına soğuna eklenecek karakter sayısı, 3 Parametre eklenecek karakter.
+- parseInt - Veriyi integer türüne çevirir.
+- repeat - Veriyi tekrar eder.
+- replace - Veriyi parçalar ve istenilen yer değiştirilir.
+- snakeCase - Yazıyı düzelt ve her yazıyı küçük yapar, boşlukları alt tire yapar.
+- split - Yazıyı parçalar ve array haline getirir, 1 parametre yazı, 2 parametre nereden parçalanacağı, 3 parametrede kaç tanesi alınacağı.
+- startCase - Yazının büyük olan harflerininin soluna boşluk koyar, yazıyı düzeltir.
+- toLower - Yazıları küçük yapar.
+- toUpper - Yazıların hepsini büyük yapar.
+- trim - Etrafındaki boşlukları siler.
+- trimEnd - Solundaki boşlukları silin veya belirlenen yazıyı siler.
+- trimStart - Solundaki boşlukları veya belirlenen yazıyı siler.
+- truncate - Büyük parça metinleri sınırlar veya üç nokta koyar.
+- unescape - Özel karakterli yazıları normale çevirir.
+- upperCase - Yazıyı düzenler ve Baş harfi büyük olan kelimenin soluna boşluk ekler, bütün yazıyı büyük yapar.
+- upperFirst - Yazının baş harfini büyük yapar.
+- words - Cümleyi parçalar. 2 parametre olarak regExp girilebilir.
