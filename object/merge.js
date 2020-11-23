@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 var object = {
     'a': [{ 'b': 2 }, { 'd': 4 }]
 };

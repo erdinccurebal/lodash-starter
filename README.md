@@ -206,3 +206,34 @@ Nihal Kıran arkadaşımıza da çok teşekkür ederim, bu projede bana yardımc
 - mapKeys - Objenin içersindeki properties isimlerini tek tek düzenler.7
 - mapValues - Objedeki verileri daha kısıtlanmış hale getirir.
 - merge - İki objeyi birleştirir.
+- merge - İki objeyi birleştirir ve fonksiyona sokulabilir.
+- omit - Arrayin içersinde belirtilen paremetleri objeden cıkarır.
+- pick - Arrayin içersinde parametleri çeker.
+- pickBy - Arrayin içersinde belirtilen koşulu göre objeden çeker.
+- result - Objenin içersinden belirtilen parametreye göre veriyi ceker.
+- set - Objenin içersindeki parametredeki konuma göre veriyi düzenler.
+- setWith - Objenin içersindeki parametredeki konuma göre veri ekler. Koşulda eklenecek veri belirtilebilir.
+- toPairs - Protipleri dizin içersinde yazdırır. Dışardan gelen prototipleri yazdırmaz.
+- toPairsIn - Protipleri dizin içersinde yazdırır.
+- transform - Veriyi istediğiniz kosulda bir fonksiyona bağlı kalarak değiştirir.
+- unset - Obje içerisindeki veriyi siler.
+- update - Obje içerisindeki veriyi fonksiyona bağlı kalarak güncelleştirir.
+- updateWith - Objedeki bir veriyi günceller. Parametre olarak dışarıdan bir tane değiştirilecek objeyi alır, ikinci parametrede eklenecek objenin konumunu belirler, üçüncü parametrede fonksiyondan dönen veriyi objeye ekler. Dördüncü parametrede ise objenin türünü belirler.
+- values - Veriyi dizin haline getirir.
+- valuesIn - Dışarıdan prototype alır.
+
+
+## Seq
+- _ - Veriyi lodash için hazır eder.
+- chain - bVeriyi pipe lodash haline getirir.
+- tap - Veriye işlem uygulanabilecek alan acar.
+- thru - Herhangi bir veriyi istenilen pipe'a sokar.
+- prototype - Verinin lodash verisi olup olmadığını kontrol eder.
+- prototypeAt - Objenin icersindeki veriyi konuma göre çeker.
+- prototypeChain - Method uygulanabilir hale getirir.
+- prototypeCommit - Lodash fonksiyonu yapılan ve pipe'a sokulan işlemlerin, tamamlanmasını tetikler.
+- prototypeNext - Lodash verisini values için hazır eder.
+- prototypePlant - Dizin içindeki sayıları karelerini alır.
+- prototypeReverse - Verileri testden yazdırır.
+- prototypeValue - Lodash türündeki veriyi çıkartır.
+
